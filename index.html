@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <script src="script.js" defer></script>
+
+    <style>
+        .container{
+            box-sizing: border-box;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(52, 200, 170);
+            border: 1px solid firebrick;
+            margin: 100px auto;
+            padding: 0 40px;
+        }
+
+        h1{
+            font-size: 60px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .decre{
+            padding: 5px 12px;
+            font-size: 20px;
+            margin-left: 76px;
+        }
+        .incre{
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+
+        .inputfeild{
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            gap: 5px;
+        }
+        input{
+            width: 50px;
+        }
+
+        .reset{
+            text-align: center;
+            padding: 5px 10px;
+            margin: 0 80px;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+
+    
+    <div class="container">
+    <h1 class="num">0</h1>
+    <button class="decre"> - </button>
+    <button class="incre"> + </button>
+
+    <!-- <div class="inputfeild"><span>Increment/Decrement:</span><span><input class="countby" type="number" name="" id="" value="1" min="1"></span></div> -->
+
+    <div class="inputfeild"><span>Increment/Decrement:</span><span><input class="countby" type="number" name="" id=""></span></div>
+
+    <button class="reset" type="reset">Reset</button>
+    </div>
+</body>
+</html>
